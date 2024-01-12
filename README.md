@@ -1,6 +1,6 @@
 # Basic CEP Lookup Library
 
-This is a basic CEP (Postal Code) lookup library designed to help you learn how to publish packages on npm.
+This is a basic CEP (Postal Code) lookup library designed to help me learn how to publish packages on npm.
 
 ## Installation
 
