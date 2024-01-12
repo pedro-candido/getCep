@@ -9,12 +9,11 @@ interface Address {
 }
 
 export const getAddress = async (cep: string) => {
-  const data = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
-  const address = data.json() as Promise<Address>;
+  const content = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+  const { data } = content.json() as Promise<Address>;
 
-  if (address) {
-    return address;
+  if (data) {
+    return data;
   }
 };
 
-getAddress("09572-210");
