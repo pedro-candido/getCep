@@ -1,0 +1,23 @@
+{
+  "name": "@pedro_candido/tiny",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "^20.11.0",
+    "npm": "^10.3.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "start:dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node build/index.js"
+  }
+}
