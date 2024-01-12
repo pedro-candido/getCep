@@ -1,5 +1,5 @@
 {
-  "name": "@pedro_candido/tiny",
+  "name": "@pedro_candido/get-cep",
   "type": "module",
   "version": "1.0.1",
   "dependencies": {
