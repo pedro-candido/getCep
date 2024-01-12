@@ -1,19 +1,9 @@
-interface Address {
-  cep: string;
-  logradouro: string;
-  complemento: string;
-  bairro: string;
-  localidade: string;
-  uf: string;
-  erro?: string;
-}
+import axios from "axios";
 
 export const getAddress = async (cep: string) => {
-  const content = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
-  const { data } = content.json() as Promise<Address>;
+  const { data } = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
 
   if (data) {
     return data;
   }
 };
-
