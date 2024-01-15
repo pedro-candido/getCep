@@ -1,1 +1,1 @@
-export { getAddress } from "./src";
+export { getAddress } from "./src/getCep";

@@ -1,1 +1,0 @@
-export { getAddress } from "./getCep";

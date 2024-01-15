@@ -1,6 +1,5 @@
 {
   "name": "@pedro_candido/get-cep",
-  "type": "module",
   "version": "1.0.6",
   "dependencies": {
     "@types/node": "^20.11.0",
