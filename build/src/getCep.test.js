@@ -69,7 +69,7 @@ describe("getAddress", function () {
                 case 0: return [4 /*yield*/, (0, getCep_1.getAddress)("99999999")];
                 case 1:
                     response = _a.sent();
-                    expect(response).toEqual({ error: "CEP não encontrado" });
+                    expect(response).toEqual({ erro: true });
                     return [2 /*return*/];
             }
         });

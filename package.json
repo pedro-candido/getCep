@@ -1,6 +1,7 @@
 {
   "name": "@pedro_candido/get-cep",
   "type": "module",
+  "main": "./build/index.js",
   "version": "1.0.8",
   "dependencies": {
     "@types/node": "^20.11.0",
