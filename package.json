@@ -3,7 +3,7 @@
   "type": "module",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "dependencies": {
     "@types/node": "^20.11.0",
     "axios": "^1.6.5",
