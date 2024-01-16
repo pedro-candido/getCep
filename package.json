@@ -1,7 +1,8 @@
 {
   "name": "@pedro_candido/get-cep",
   "type": "module",
-  "main": "./index",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
   "version": "1.0.11",
   "dependencies": {
     "@types/node": "^20.11.0",
@@ -18,6 +19,7 @@
   },
   "scripts": {
     "start:dev": "nodemon src/index.ts",
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build && node build/index.js"
